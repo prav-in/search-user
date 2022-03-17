@@ -45,7 +45,7 @@ function App() {
             ))}
           </div>
         ) : (
-          "No Data Found"
+          <div class="container__none">No Data Found</div>
         )}
       </main>
     </div>

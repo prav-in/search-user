@@ -13,7 +13,7 @@ const User = ({ userData: u }) => {
         </h1>
         <span class="user__details__mail">{u.email}</span>
         <p>
-          {street.number} {street.name}, {city}, {state}, {country},{postcode}
+          {street.number} {street.name}, {city}, {state}, {country}, {postcode}
         </p>
       </div>
       <span class="user__nat">{u.nat}</span>
