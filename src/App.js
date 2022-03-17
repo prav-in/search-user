@@ -38,11 +38,15 @@ function App() {
     <div className="App">
       <Navbar handleFilter={handleFilter} />
       <main className="container">
-        <div class="container__users">
-          {filteredUsers.map((userData) => (
-            <User key={userData.login.username} userData={userData} />
-          ))}
-        </div>
+        {filteredUsers.length ? (
+          <div class="container__users">
+            {filteredUsers.map((userData) => (
+              <User key={userData.login.username} userData={userData} />
+            ))}
+          </div>
+        ) : (
+          "No Data Found"
+        )}
       </main>
     </div>
   );

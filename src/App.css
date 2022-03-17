@@ -7,7 +7,9 @@
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .container__users {
